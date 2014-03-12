@@ -1,0 +1,5 @@
+#Script to perform Whois on multiple domains and get contact info in a new file.
+#Separated by "-----"
+
+#for i in $(cat INPUTFILE.txt); do whois $i|grep 'Name\|@'>>OUTFILE.txt;echo "----------">>OUTFILE.txt;done
+#for i in $(cat $1); do whois $i|grep 'Name\|@'>>$2;echo "----------">>$2;done
