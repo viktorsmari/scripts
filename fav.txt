@@ -1,0 +1,2 @@
+#scan 50 most used ports 
+nmap --top-ports 50 -Pn localhost
