@@ -1,0 +1,7 @@
+#create ssh tunnel through a server and browse with firefox
+
+ssh -D 12345 user@server
+
+
+#in Firefox
+# Preferences - Advanced - Network - Settings - Manual proxy - Socks Host: localhost, Port 12345
