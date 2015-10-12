@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # will send a dweet with date output as parameter
 
 function dateCurl() {
@@ -5,3 +7,5 @@ function dateCurl() {
 }
 
 dateCurl $(date)
+
+
