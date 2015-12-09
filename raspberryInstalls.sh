@@ -1,7 +1,7 @@
 # to run this do: curl https://raw.githubusercontent.com/viktorsmari/scripts/master/raspberryInstalls.sh| sh
 
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 sudo apt-get install tmux vim nmap htop -y
 
 # vim stuff
